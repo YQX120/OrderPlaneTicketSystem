@@ -22,7 +22,7 @@ public class MainUI {
             int choice = sc.nextInt();
 
             if (choice == 1) {
-                String id = UUID.randomUUID().toString();
+                String id = UUID.randomUUID().toString().toString().replace("-", "");
 
                 System.out.println("请输入航班编号：");
                 String flightID = sc.next();

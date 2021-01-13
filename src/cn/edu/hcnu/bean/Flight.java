@@ -2,7 +2,7 @@ package cn.edu.hcnu.bean;
 
 public class Flight {
     private String id;//主键，UUID，主键不应该具有任何的业务意义
-    private String flightID;
+    private String flightID;//机型
     private String planeType;//航班类型
     private int currentSeatsNum;//总座位数
     private String departureAirport;//出发地
@@ -89,5 +89,25 @@ public class Flight {
                     '}';
         }
 
+
+    public String getID() {
+        return null;
+    }
+
+    public String getFlightId() {
+        return null;
+    }
+
+    public String getDepartureAirPort() {
+        return null;
+    }
+
+    public String getDestinationAirPort() {
+        return null;
+    }
+
+    public int getcurrentSeatsNum() {
+        return 0;
+    }
 }
 

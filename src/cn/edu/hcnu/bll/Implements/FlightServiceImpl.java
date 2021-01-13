@@ -8,7 +8,6 @@ import java.util.Set;
 public class FlightServiceImpl implements IFlightService {
     @Override
     public void insertFlight(Flight flight) {
-
     }
 
     @Override
